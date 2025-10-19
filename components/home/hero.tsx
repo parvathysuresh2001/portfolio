@@ -134,7 +134,7 @@ const Hero = () => {
             width={112}
             height={112}
             //quality={75}
-            alt="Nevin"
+            alt="Parvathy Suresh"
             lazy={false}
           />
           <div className="bg-linear-to-tl absolute inset-0 -z-10 from-purple-700 to-orange-700 opacity-50 blur-2xl" />

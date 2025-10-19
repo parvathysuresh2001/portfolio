@@ -37,7 +37,7 @@ export const defaultMetadata: Metadata = {
         url: `${SITE_URL}${metadataValues.openGraph.imagePath}`,
         width: 1200,
         height: 630,
-        alt: "Nevin Michael portfolio",
+        alt: "Parvathy Suresh's portfolio",
         type: metadataValues.openGraph.imageType,
       },
     ],

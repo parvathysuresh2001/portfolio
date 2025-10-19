@@ -19,7 +19,7 @@ const CertificateCards = ({ posts }: PostCardsProps) => {
 
 const CertificateCard = ({ id, certificateName, description, imgPath, issueDate, issuer }: Certificate) => {
   return (
-    <Link href={`/${id}`} className="shadow-feature-card group rounded-xl px-2 py-4">
+    <div className="shadow-feature-card group rounded-xl px-2 py-4">
       <BlurImage
         src={imgPath}
         className="rounded-lg"
@@ -38,7 +38,7 @@ const CertificateCard = ({ id, certificateName, description, imgPath, issueDate,
         <h3 className="text-2xl font-semibold">{certificateName}</h3>
         <p className="text-muted-foreground mt-2">{description}</p>
       </div>
-    </Link>
+    </div>
   );
 };
 

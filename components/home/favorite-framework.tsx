@@ -1,4 +1,4 @@
-import { SiNextdotjs } from "@icons-pack/react-simple-icons"
+import { SiDjango } from "@icons-pack/react-simple-icons"
 import { HeartIcon } from "lucide-react"
 
 const FavoriteFramework = () => {
@@ -9,7 +9,7 @@ const FavoriteFramework = () => {
         <h2 className="text-sm">Fav. framework</h2>
       </div>
       <div className="flex items-center justify-center">
-        <SiNextdotjs size={80} className="text-zinc-800 dark:text-zinc-200" />
+        <SiDjango size={80} className="text-zinc-800 dark:text-zinc-200" />
       </div>
     </div>
   );

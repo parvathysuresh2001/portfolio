@@ -1,6 +1,6 @@
 "use client"
 import Marquee from "react-fast-marquee"
-import { SiCloudflare, SiCss, SiFigma, SiFirebase, SiGit, SiHtml5, SiJavascript, SiMarkdown, SiMysql, SiNextdotjs, SiNodedotjs, SiPostgresql, SiSpringboot, SiPython, SiRadixui, SiReact, SiTailwindcss, SiTypescript, SiVite, SiVitest,SiBootstrap, SiDigitalocean } from "@icons-pack/react-simple-icons"
+import { SiCss, SiFigma, SiFirebase, SiGit, SiHtml5, SiJavascript, SiMarkdown, SiMysql, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPython, SiReact, SiTailwindcss, SiTypescript, SiBootstrap, SiDigitalocean, SiDjango } from "@icons-pack/react-simple-icons"
 import { ZapIcon } from "lucide-react"
 
 const StacksCard = () => {
@@ -22,20 +22,16 @@ const StacksCard = () => {
           <SiReact className="size-10" />
           <SiPython className="size-10" />
           <SiPostgresql className="size-10" />
-          <SiRadixui className="size-10" />
         </div>
       </Marquee>
       <Marquee pauseOnHover speed={25} direction="right" className="py-4">
         <div className="flex gap-4 pl-4">
-          <SiSpringboot className="size-10" />
+          <SiDjango className="size-10" />
           <SiMysql className="size-10" />
           <SiFirebase className="size-10" />
           <SiGit className="size-10" />
-          <SiVite className="size-10" />
-          <SiCloudflare className="size-10" />
           <SiBootstrap className="size-10" />
           <SiMarkdown className="size-10" />
-          <SiVitest className="size-10" />
           <SiNodedotjs className="size-10" />
           <SiDigitalocean className="size-10" />
         </div>

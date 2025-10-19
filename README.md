@@ -63,13 +63,13 @@ To get started, clone the repository and install the necessary packages using pn
 ### Clone the repository
 
 ```bash
-git clone https://github.com/NevinMichael10/nextjs-portfolio.git
+git clone https://github.com/parvathysuresh2001/portfolio.git
 ```
 
 ### Navigate to the project directory
 
 ```bash
-cd nextjs-portfolio
+cd portfolio
 ```
 
 ### Install dependencies

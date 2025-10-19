@@ -152,10 +152,10 @@ export const certificates: Certificate[] = [
   {
     id: 1,
     certificateName: "Python & Django Skill Training",
-    description: "This certificate is awarded to Mr./Ms. Parvathy Suresh (Reg. No: 1182806708) for successfully completing skill training in Python & Django.",
-    issuer: "Skill Training Institute",
+    description: "Python & Django Skill Training is an online program authorized by Avodha",
+    issuer: "Avodha",
     issueDate: "15-09-2025",
-    imgPath: "/images/certificates/cert1.webp",
+    imgPath: "/images/certificates/cert1.jpg",
   }
 ];
 
@@ -221,7 +221,7 @@ export const projects: Project[] = [
     id: "",
     name: "",
     description: "",
-    detailedDescription: "MediaArms is a powerful advertising platform built using Next.js, allowing businesses to order and place voice ads on selected radio channels. It streamlines ad bookings with a simple and intuitive interface, ensuring smooth transactions between advertisers and radio stations. The platform enables users to browse and select radio channels, explore a curated list of stations, and pick the best fit for their advertisements. Advertisers can define their ad campaign duration, frequency, and target audience while benefiting from real-time cost calculation based on selected time slots and ad duration. MediaArms also includes a cart functionality, allowing users to add and manage multiple ad placements before finalizing their order. Secure payments are integrated through Razorpay for seamless UPI and online transactions. Advertisers can track past and ongoing campaigns through a detailed dashboard, ensuring complete visibility of their ad history. The platform is built with Next.js, TypeScript, and Tailwind CSS on the frontend, while the backend leverages Node.js and Express, with PostgreSQL as the database. Payment integration is handled via Razorpay. This project showcases expertise in Next.js, TypeScript, payment integration, and real-time cost calculation for advertising platforms.",
+    detailedDescription: "",
     techstack: ["", "", "", "", "", ""],
     slug: "",
     website: "",
@@ -261,15 +261,9 @@ export const stackGroups = [
       },
       {
         imagePath: "/images/tech/intellij.png",
-        name: "IntelliJ IDEA",
-        description: "Java IDE",
+        name: "PyCharm",
+        description: "Python IDE",
         url: "https://www.jetbrains.com/idea/",
-      },
-      {
-        imagePath: "/images/tech/sts.png",
-        name: "Spring Tool Suite",
-        description: "Spring IDE",
-        url: "https://spring.io/tools",
       },
       {
         imagePath: "/images/tech/git.png",
