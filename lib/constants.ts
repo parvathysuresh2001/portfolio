@@ -1,4 +1,4 @@
-import { SiFacebook, SiGithub, SiInstagram } from "@icons-pack/react-simple-icons";
+import { SiGithub, SiInstagram } from "@icons-pack/react-simple-icons";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export const isProduction = process.env.NODE_ENV === "production";

@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { BlurImage } from "../ui/blur-image";
 
 type PostCardsProps = {
@@ -17,7 +16,7 @@ const CertificateCards = ({ posts }: PostCardsProps) => {
   );
 };
 
-const CertificateCard = ({ id, certificateName, description, imgPath, issueDate, issuer }: Certificate) => {
+const CertificateCard = ({ certificateName, description, imgPath, issueDate, issuer }: Certificate) => {
   return (
     <div className="shadow-feature-card group rounded-xl px-2 py-4">
       <BlurImage
