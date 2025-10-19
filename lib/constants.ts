@@ -260,10 +260,10 @@ export const stackGroups = [
         url: "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme",
       },
       {
-        imagePath: "/images/tech/intellij.png",
+        imagePath: "/images/tech/pycharm.png",
         name: "PyCharm",
         description: "Python IDE",
-        url: "https://www.jetbrains.com/idea/",
+        url: "https://www.jetbrains.com/pycharm/",
       },
       {
         imagePath: "/images/tech/git.png",
