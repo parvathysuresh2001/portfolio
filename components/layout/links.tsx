@@ -35,7 +35,7 @@ export const FOOTER_LINKS = [
     links: [
       { href: "/", key: "Home" },
       { href: "/about", key: "About" },
-      { href: "/projects", key: "Projects" },
+      // { href: "/projects", key: "Projects" },
     ],
   },
   {
