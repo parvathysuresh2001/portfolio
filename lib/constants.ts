@@ -399,12 +399,12 @@ export const metadataValues = {
   description: `I'm ${authorName}, a passionate software engineer specializing in building innovative digital solutions using modern technologies like React, Next.js, and TypeScript.`,
   openGraph: {
     description: `Explore the portfolio of ${authorName} — a Software Engineer creating impactful projects, sharing his career journey, and more. Dive into his work with cutting-edge technologies.`,
-    imagePath: "/images/logo/open-share.png",
+    imagePath: "/images/logo/share.png",
     imageType: "image/png",
   },
   twitter: {
     description: "Software engineer crafting seamless digital experiences with Next.js, React, TypeScript, and more.",
-    imagePath: `/images/logo/open-share.png`,
+    imagePath: `/images/logo/share.png`,
   },
   verification: {
     google: process.env.GOOGLE_SITE_VERIFICATION,
