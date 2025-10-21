@@ -3,7 +3,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 export const isProduction = process.env.NODE_ENV === "production";
 const PORT = process.env.PORT ?? 3000;
-export const SITE_URL = isProduction ? "https://parathy.vercel.app" : `http://localhost:${PORT}`;
+export const SITE_URL = isProduction ? "https://parvathy.vercel.app" : `http://localhost:${PORT}`;
 
 export const GITHUB_USERNAME = "parvathysuresh2001";
 export const SITE_NAME = "Parvathy Suresh";
